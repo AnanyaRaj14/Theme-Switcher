@@ -4,7 +4,7 @@ export default function Card() {
     return (
         <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="/">
-                <img className="p-8 rounded-t-lg" src="https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?s=612x612&w=0&k=20&c=jlYes8ZfnCmD0lLn-vKvzQoKXrWaEcVypHnB5MuO-g8=" alt="programming" />
+                <img className="p-8 rounded-t-lg" src="https://t3.ftcdn.net/jpg/01/91/63/46/360_F_191634678_7SLWvip1Aoh4nsrE8RD4usPWgPayEMRB.jpg" alt="Morning" />
             </a>
             <div className="px-5 pb-5">
                 <a href="/">
@@ -63,12 +63,12 @@ export default function Card() {
                     </span>
                 </div> */}
                 <div className="flex items-center justify-between">
-                    <span className="text-3xl font-bold text-gray-900 dark:text-white">$599</span>
+                    {/* <span className="text-3xl font-bold text-gray-900 dark:text-white">$599</span> */}
                     <a
                         href="/"
-                        className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                        className="mx-20 mt-8 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                     >
-                        Add to cart
+                        Welcome Message
                     </a>
                 </div>
             </div>
